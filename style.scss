@@ -362,3 +362,13 @@ input[name="field2"]:focus {
   margin-top:40px;
 }
 
+.stick {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  background-color: white;
+  font-size: 20px;
+}

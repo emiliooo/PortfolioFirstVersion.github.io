@@ -21,7 +21,27 @@ $(document).ready(function() {
     });
 
 
-    ;
+    //sticky
+
+    var stickyNavTop=$('.sticked').offset().top;
+    var position=$('.about').offset().top;
+
+    var sticky=function(){
+        var scrollTop=$(window).scrollTop();
+
+        if(scrollTop >position){
+            $('.sticked').addClass("stick")
+        }else{
+            $('.sticked').removeClass("stick")
+        }
+    }
+
+    sticky()
+
+    $(window).scroll(function () {
+        sticky()
+    })
+
 
 
 
