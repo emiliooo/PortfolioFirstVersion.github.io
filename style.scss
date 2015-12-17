@@ -122,6 +122,10 @@ body {
 
 }
 
+.menu ul li:hover {
+  color: red;
+}
+
 .menu ul{
   text-align: center;
 
@@ -179,14 +183,17 @@ body {
 }
 
 .how img{
-
   margin-top: 40px;
 }
+
+
 
 #arrow {
   margin-top: 366px;
   margin-left: 50%;
 }
+
+
 .line{
    background-color:#17ded7;
   width: 100%;

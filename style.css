@@ -91,6 +91,9 @@ body {
   padding-left: 20px;
   font-family: Lato; }
 
+.menu ul li:hover {
+  color: red; }
+
 .menu ul {
   text-align: center; }
 
