@@ -11,7 +11,7 @@ body {
   font-weight: 200; }
 #maine {
   width: 100%;
-  height: 0;
+  height: 500px;
   background-image: url("img/header-banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,7 +103,7 @@ body {
 .about {
   margin-bottom: 28px;
   height: 400px;
-  border: 1px solid red; }
+  background-color: white; }
 
 .about :first-child {
   font-size: 40px;
@@ -115,25 +115,24 @@ body {
 .opis {
   width: 100%;
   height: 168px;
-  border: 1px solid red;
   font-size: 25px;
   text-align: left;
   margin-left: 20px; }
 
 #datas {
   width: 545px;
-  height: 216px;
-  border: 1px solid red; }
+  height: 216px; }
 
 .ex {
   height: 400px;
-  border: 1px solid red;
   background-color: #ededed; }
 
 .how {
   height: 277px;
-  border: 1px solid red;
   background-color: #ededed; }
+
+.how img {
+  margin-top: 40px; }
 
 #arrow {
   margin-top: 366px;
@@ -198,8 +197,7 @@ body {
   margin-top: 30px; }
 
 .list .col-4 {
-  height: 212px;
-  border: 1px solid red; }
+  height: 212px; }
 
 .list .col-4 img {
   width: 355px;
@@ -224,7 +222,7 @@ body {
   border-radius: 4px;
   font: 12px Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: #E5FFFF;
+  color: black;
   background: #17ded7;
   -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
   -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
