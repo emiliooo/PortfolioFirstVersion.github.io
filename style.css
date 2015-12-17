@@ -118,13 +118,16 @@ body {
 .opis {
   width: 100%;
   height: 168px;
-  font-size: 25px;
+  font-size: 20px;
   text-align: left;
-  margin-left: 20px; }
+  margin-left: 20px;
+  font-family: Verdana; }
 
 #datas {
   width: 545px;
-  height: 216px; }
+  height: 216px;
+  font-family: Verdana;
+  font-size: 19px; }
 
 .ex {
   height: 400px;
@@ -135,7 +138,10 @@ body {
   background-color: #ededed; }
 
 .how img {
-  margin-top: 40px; }
+  margin-top: 70px; }
+
+.how p {
+  font-family: Verdana; }
 
 #arrow {
   margin-top: 366px;
@@ -174,10 +180,14 @@ body {
   color: #17ded7; }
 
 #kom {
-  font-size: 25px; }
+  font-size: 23px;
+  font-family: Verdana; }
 
 #tel {
   font-size: 35px; }
+
+#tel:hover {
+  color: #17ded7; }
 
 .cn {
   font-size: 40px;
@@ -250,6 +260,9 @@ body {
 
 .chose, .ch {
   background-color: #ededed; }
+
+.ch .col-3 p {
+  font-family: Verdana; }
 
 input[name="field1"] {
   border-color: #cccccc;
