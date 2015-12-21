@@ -40,5 +40,28 @@ $(document).ready(function() {
         sticky()
     })
 
+    function setMenu() {
+        $(window).on('resize', function() {
+            if ($(window).width() < 700) {
+                $('.menu').hide();
+                $('.menuBtn').show();
+            } else {
+                $('.menu').show();
+                $('.menuBtn').hide();
+                $('.mobileMenu').hide();
+            }
+        });
+    }
+
+    function setClick() {
+        $('.menuBtn').on('click', function() {
+            $('.mobileMenu').toggle();
+        });
+    }
+
+    setMenu();
+    setClick();
+
+
 
 })

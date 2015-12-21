@@ -5,6 +5,25 @@ body {
 * {
   box-sizing: border-box; }
 
+.notVisible {
+  display: none; }
+
+.menuBtn span {
+  display: block;
+  width: 19px;
+  height: 5px;
+  margin: 4px 0;
+  background: black; }
+
+.mobileNav a {
+  background: black;
+  text-decoration: none;
+  color: yellow; }
+
+.mobileNav li {
+  display: inline-block;
+  padding: 5px; }
+
 @font-face {
   font-family: Lato;
   src: url("Fonts/Lato-Bla.otf");
