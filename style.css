@@ -241,7 +241,11 @@ body {
 
 .list .col-4 img:hover {
   -webkit-transform: scale(1.3);
-  /* all webkit */ }
+  /* all webkit */
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -o-transform: scale(1.3); }
 
 .button {
   margin-top: 80px;
