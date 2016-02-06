@@ -35,7 +35,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  padding-bottom: 60%; }
+  padding-bottom: 60%;
+  background-attachment: fixed; }
 
 .name {
   margin-top: 148px;
@@ -137,10 +138,11 @@ body {
 .opis {
   width: 84%;
   height: 163px;
-  font-size: 20px;
+  font-size: 23px;
   text-align: left;
   margin-left: 20px;
-  font-family: Cambria; }
+  font-family: Cambria;
+  line-height: 24px; }
 
 #datas {
   width: 545px;
@@ -247,9 +249,48 @@ body {
   -moz-transform: scale(1.3);
   -o-transform: scale(1.3); }
 
+.list2 .col-4 {
+  height: 212px; }
+
+.list2 .col-4 img {
+  width: 355px;
+  height: 250px;
+  transition: transform 0.3s; }
+
+.list2 .col-4 img:hover {
+  -webkit-transform: scale(1.3);
+  /* all webkit */
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -o-transform: scale(1.3); }
+
+.list2 {
+  margin-top: 150px; }
+
+.list3 .col-12 {
+  height: 212px; }
+
+.list3 .col-12 img {
+  width: 355px;
+  height: 250px;
+  transition: transform 0.3s; }
+
+.list3 .col-12 img:hover {
+  -webkit-transform: scale(1.3);
+  /* all webkit */
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -o-transform: scale(1.3); }
+
+.list3 {
+  margin-top: 150px; }
+
 .button {
   margin-top: 80px;
-  float: right; }
+  float: right;
+  position: relative; }
 
 .button {
   background: #17ded7;
@@ -289,9 +330,6 @@ body {
 .chose .col-12 p {
   font-size: 40px;
   font-family: Lato; }
-
-.chose {
-  margin-top: 180px; }
 
 .kontakt .col-12 p {
   font-size: 40px;
