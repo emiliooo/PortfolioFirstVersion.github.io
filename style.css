@@ -208,10 +208,8 @@ body {
   font-family: Verdana; }
 
 #tel {
-  font-size: 35px; }
-
-#tel:hover {
-  color: #17ded7; }
+  font-size: 35px;
+  color: red; }
 
 .cn {
   font-size: 40px;
