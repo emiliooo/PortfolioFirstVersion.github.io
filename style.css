@@ -124,8 +124,8 @@ body {
   text-align: center; }
 
 .about {
-  margin-bottom: 28px;
-  height: 400px;
+  margin-bottom: -4px;
+  height: 116px;
   background-color: white; }
 
 .about :first-child {
@@ -378,5 +378,21 @@ input[name="field2"]:focus {
   border-top: 0;
   background-color: white;
   font-size: 20px; }
+
+.how img:hover {
+  transform: rotateY(360deg);
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all; }
+
+.move img:hover {
+  transform: rotateY(360deg);
+  transition: .6s all;
+  -webkit-transition: .6s all;
+  -moz-transition: .6s all;
+  -o-transition: .6s all;
+  -ms-transition: .6s all; }
 
 /*# sourceMappingURL=style.css.map */
