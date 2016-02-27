@@ -496,3 +496,12 @@ input[name="field2"]:focus {
   -ms-transition: .6s all;
 }
 
+.text p:hover{
+  transform: rotateY(360deg);
+  transition: .8s all;
+  -webkit-transition: .8s all;
+  -moz-transition: .8s all;
+  -o-transition: .8s all;
+  -ms-transition: .8s all;
+}
+
