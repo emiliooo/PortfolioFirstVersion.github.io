@@ -108,14 +108,24 @@ body {
 .menu ul li {
   display: inline-block;
   font-size: 20px;
-  padding-left: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   font-family: Lato; }
 
 .menu ul li:hover {
-  color: red; }
+  color: white;
+  border: 1px solid black;
+  border-radius: 11px;
+  background-color: #17ded7;
+  transition: .4s all;
+  -webkit-transition: .4s all;
+  -moz-transition: .4s all;
+  -o-transition: .4s all;
+  -ms-transition: 0.4s all; }
 
 .menu ul {
-  text-align: center; }
+  text-align: center;
+  height: 30px; }
 
 .skills .col-4 p {
   font-size: 25px; }
