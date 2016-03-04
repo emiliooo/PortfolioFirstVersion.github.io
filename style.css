@@ -114,8 +114,8 @@ body {
 
 .menu ul li:hover {
   color: white;
-  border: 1px solid black;
-  border-radius: 11px;
+  border: 1px solid white;
+  border-radius: 12px;
   background-color: #17ded7;
   transition: .4s all;
   -webkit-transition: .4s all;
@@ -255,7 +255,8 @@ body {
   transform: scale(1.3);
   -webkit-transform: scale(1.3);
   -moz-transform: scale(1.3);
-  -o-transform: scale(1.3); }
+  -o-transform: scale(1.3);
+  border-radius: 10px; }
 
 .list2 .col-4 {
   height: 212px; }
@@ -271,7 +272,8 @@ body {
   transform: scale(1.3);
   -webkit-transform: scale(1.3);
   -moz-transform: scale(1.3);
-  -o-transform: scale(1.3); }
+  -o-transform: scale(1.3);
+  border-radius: 10px; }
 
 .list2 {
   margin-top: 150px; }
